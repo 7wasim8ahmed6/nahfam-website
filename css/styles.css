@@ -499,6 +499,7 @@ button { font-family: inherit; }
 .contact-form .form-row label { margin-bottom: 0; }
 .contact-form label span { color: var(--gold-500); }
 .contact-form input,
+.contact-form select,
 .contact-form textarea {
   font-family: var(--font-body);
   font-size: 16px;
@@ -510,6 +511,7 @@ button { font-family: inherit; }
   resize: vertical;
 }
 .contact-form input:focus,
+.contact-form select:focus,
 .contact-form textarea:focus {
   outline: none;
   border-color: var(--gold-500);
